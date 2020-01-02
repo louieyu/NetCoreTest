@@ -1,0 +1,8 @@
+@using cn.test.web.Models
+@{
+    ViewBag.Title ="Partial View Demo";
+}
+
+<h3>@ViewBag.Title</h3>
+
+@await Html.PartialAsync("_NoteInfo",new NoteInfo(){Title="hhh",PublishDate=new DateTime(1999,09,09),Content="test"})

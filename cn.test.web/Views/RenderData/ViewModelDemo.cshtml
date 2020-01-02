@@ -1,0 +1,14 @@
+@model cn.test.web.Models.Person;
+<h3>@ViewData["title"]</h3>
+@await Html.PartialAsync("_DateTimeInfo")
+<ul>
+    <li>
+        姓名：@Model.Name
+    </li>
+    <li>
+        生日：@Model.Birthday
+    </li>
+    <li>
+        爱好：@Model.Hobby[0], @Model.Hobby[1]
+    </li>
+</ul>
