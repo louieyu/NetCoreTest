@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cn.test.web", "cn.test.web\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cn.test.ApiGatway", "cn.test.ApiGatway\cn.test.ApiGatway.csproj", "{A46BF81C-7C31-4A2F-875A-F0217537D911}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cn.test.IdentityApi", "cn.test.IdentityApi\cn.test.IdentityApi.csproj", "{58A9FA57-57A5-418A-933E-4BE772B83EED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cn.test.IdentityServer4", "cn.test.IdentityServer4\cn.test.IdentityServer4.csproj", "{58A9FA57-57A5-418A-933E-4BE772B83EED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cn.test.YtoApi", "cn.test.YtoApi\cn.test.YtoApi.csproj", "{F36A7B40-A7FC-4A55-9428-309B7811AB33}"
 EndProject
