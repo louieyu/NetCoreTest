@@ -8,35 +8,14 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace cn.test.IdentityApi
+namespace cn.test.IdentityDemo
 {
     public class Startup
     {
-        private IWebHostEnvironment environment;
-
-        public Startup(IWebHostEnvironment env)
-        {
-            environment = env;
-        }
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            var provider = services.BuildServiceProvider();
-            var builder = services.AddIdentityServer()
-                            .AddInMemoryIdentityResources(Config.GetResources())
-                            .AddInMemoryApiResources(Config.GetApis())
-                            .AddInMemoryClients(Config.GetClients())
-                            .AddTestUsers(Config.GetUsers(provider));
-
-            if (environment.IsDevelopment())
-            {
-                builder.AddDeveloperSigningCredential();
-            }
-            else
-            {
-                throw new Exception("need to configuare key meterial");
-            }
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,7 +25,6 @@ namespace cn.test.IdentityApi
             {
                 app.UseDeveloperExceptionPage();
             }
-            app.UseIdentityServer();
 
             app.UseRouting();
 

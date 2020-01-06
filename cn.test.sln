@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cn.test.YtoApi", "cn.test.Y
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cn.test.Client", "cn.test.Client\cn.test.Client.csproj", "{EB617F8E-5EAC-4F5A-913C-A89DFD6233A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cn.test.IdentityDemo", "cn.test.IdentityDemo\cn.test.IdentityDemo.csproj", "{EA1F8A6B-E270-4B18-BD9C-C800574743D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,5 +88,17 @@ Global
 		{EB617F8E-5EAC-4F5A-913C-A89DFD6233A0}.Release|x64.Build.0 = Release|Any CPU
 		{EB617F8E-5EAC-4F5A-913C-A89DFD6233A0}.Release|x86.ActiveCfg = Release|Any CPU
 		{EB617F8E-5EAC-4F5A-913C-A89DFD6233A0}.Release|x86.Build.0 = Release|Any CPU
+		{EA1F8A6B-E270-4B18-BD9C-C800574743D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1F8A6B-E270-4B18-BD9C-C800574743D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1F8A6B-E270-4B18-BD9C-C800574743D9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EA1F8A6B-E270-4B18-BD9C-C800574743D9}.Debug|x64.Build.0 = Debug|Any CPU
+		{EA1F8A6B-E270-4B18-BD9C-C800574743D9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EA1F8A6B-E270-4B18-BD9C-C800574743D9}.Debug|x86.Build.0 = Debug|Any CPU
+		{EA1F8A6B-E270-4B18-BD9C-C800574743D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1F8A6B-E270-4B18-BD9C-C800574743D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA1F8A6B-E270-4B18-BD9C-C800574743D9}.Release|x64.ActiveCfg = Release|Any CPU
+		{EA1F8A6B-E270-4B18-BD9C-C800574743D9}.Release|x64.Build.0 = Release|Any CPU
+		{EA1F8A6B-E270-4B18-BD9C-C800574743D9}.Release|x86.ActiveCfg = Release|Any CPU
+		{EA1F8A6B-E270-4B18-BD9C-C800574743D9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
