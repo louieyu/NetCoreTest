@@ -7,7 +7,7 @@
             "args": [
                 "build",
                 //"${workspaceFolder}/cn.test.web/cn.test.web.csproj",
-                "${workspaceFolder}/cn.test.IdentityApi/cn.test.IdentityApi.csproj",
+                "${workspaceFolder}/cn.test.IdentityDemo/cn.test.IdentityDemo.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
